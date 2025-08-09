@@ -1,3 +1,14 @@
+/*
+=================================================================
+DDL Script: Create Silver Table
+=================================================================
+Script Purpose:
+	This scripts create tables in the 'silver' schema, dropping existing tables
+	if they are already exist.
+	Run this script to re-define the DDL structure of 'bronze' layer
+=================================================================
+*/
+
 USE DataWarehouse;
 GO
 
